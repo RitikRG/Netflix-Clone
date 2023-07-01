@@ -1,0 +1,139 @@
+@media only screen and (min-width: 650px){
+    #heroText h2{
+        font-size: 3.5rem;
+    }
+    #heroText p{
+        font-size: 1.4rem;
+    }
+    #heroText button{
+        font-size: 1.5rem;
+    }
+    
+    
+}
+@media only screen and (min-width: 850px) {
+    #heroSection {
+      height: 90vh;
+    }
+    #heroText{
+        margin-top: 35vh;
+    }
+    #optionsNavbar #options{
+        width: 60%;
+    }
+    .optionBoxSizing{
+        height: 600px;
+    }
+    #option3{
+        height: auto;
+    }
+    #option3Desc p{
+        font-size: 2rem;
+    }
+    #option3Desc button{
+        font-size: 1.5rem;
+    }
+    #tableHeads{
+        font-size: 1.5rem;
+    }
+    .row{
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    #option1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #option1Desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #option1 #option1Desc p{
+        font-size: 1.8rem;
+    }
+    #option2{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #option2 #option2Desc{
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+}
+@media only screen and (min-width: 1000px) {
+    #heroSection{
+        padding-top: 20px;
+    }
+    #logoContainer{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    #heroText h2{
+        font-size: 4.5rem;
+    }
+    #heroText p{
+        font-size: 1.8rem;
+    }
+    #heroText button{
+        font-size: 2rem;
+    }
+    #optionsNavbar{
+        height: 150px;
+    }
+    #optionsNavbar #options{
+        width: 50%;
+    }
+    #optionsNavbar #options div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        
+    }
+    #optionsNavbar #options div p{
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+    #option1 img{
+        width: 400px
+    };
+    #option2Desc{
+        display: flex;
+        flex-direction: row;
+    }
+    #option2 #option2Desc p{
+        font-size: 2.5rem;
+    }
+    #option2 #option2Desc button{
+        font-size: 1.5rem;
+    }
+    #option2{
+        height: auto;
+    }
+    #option2 img{
+        width: 200px;
+    }
+    #option2 div h4{
+        font-size: 1.35rem;
+    }
+    /* footer section */
+    #footer{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #questions{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: 1.1rem;
+    }
+    #footer a{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    #option2 img{
+        width: 300px;
+    }
+}

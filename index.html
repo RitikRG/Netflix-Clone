@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsiveness.css">
+    <title>Netflix</title>
+</head>
+<body>
+    <div id="heroSection">
+        <div id="navbar">
+            <div id="logoContainer"><img src="./img/logo.png" alt="Netflix"></div>
+            <button id="signBtn">Sign In</button>
+        </div>
+        <div id="heroText">
+            <h2>See What's next</h2>
+            <p>WATCH ANYWHERE. CANCEL ANYTIME</p>
+            <button>WATCH FREE FOR 30 DAYS &nbsp &nbsp &nbsp<i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+    <div id="body">
+        <div id="optionsNavbar">
+            <div id="options">
+                <div id="planeGate" >
+                    <i class="fa-solid fa-door-open"></i>
+                    <p>Cancel at any time.</p>
+                </div>
+                <div id="deviceOption" class="activeBar">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <p>Watch anytime.</p>
+                </div>
+                <div id="planOption">
+                    <i class="fa-solid fa-tags"></i>
+                    <p>Pick Your Price.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div id="optionsContainer">
+            <div id="option1" class="unactive optionBoxSizing" style="display:none;">
+                <div id="option1Desc">
+                    <p> If you decide Netflix isn't for you - no problem. No commitment. Cancel online anytime. </p> If you decide Netflix isn't for you - no problem. No commitment. Cancel online anytime. 
+                    <button class="btn">WATCH FREE FOR 30 DAYS</button>
+                </div>
+                <div id="option1Img"><img src="./img/tab-content-1.png" alt=""></div>
+            </div>
+            <div id="option2" class="optionBoxSizing" >
+                <div id="option2Desc">
+                    <p>Watch TV shows and movies anytime, anywhere — personalized for you. </p>
+                    <button class="btn">WATCH FREE FOR 30 DAYS</button>
+                </div>
+                <div id="option2-1">
+                    <img src="./img/tab-content-2-1.png" alt="">
+                    <h4>Watch on your TV</h4>
+                    <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more. </p>
+                </div>
+                <div id="option2-2">
+                    <img src="./img/tab-content-2-2.png" alt="">
+                    <h4>Watch instantly or download for later</h4>
+                    <p>Available on phone and tablet, wherever you go.</p>
+                </div>
+                <div id="option2-3">
+                    <img src="./img/tab-content-2-3.png" alt="">
+                    <h4>Use any computer </h4>
+                    <p>Watch right on Netflix.com. </p>
+                </div> 
+            </div>
+            <div id="option3" class="optionBoxSizing" style="display: none;">
+                <div id="option3Desc">
+                    <p>Choose one plan and watch everything on Netflix. </p>
+                    <button class="btn">WATCH FREE FOR 30 DAYS</button>
+                </div>
+                <div id="pricingTable">
+                    <div id="tableHeads" class="tableCol">
+                        <div></div>
+                        <div>BASIC</div>
+                        <div>STANDARD</div>
+                        <div>PREMIUM</div>
+                    </div>
+                    <div id="row1" class="tableCol fadedBack row">
+                        <div>Monthly price after free month ends on 6/19/19</div>
+                        <div>$8.99</div>
+                        <div>$12.99</div>
+                        <div>$15.99</div>
+                    </div>
+                    <div id="row2" class="tableCol row">
+                        <div>HD Available</div>
+                        <div><i class="fa-solid fa-xmark"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                    </div>
+                    <div id="row3" class="tableCol fadedBack row">
+                        <div>Ultra HD Available</div>
+                        <div><i class="fa-solid fa-xmark"></i></div>
+                        <div><i class="fa-solid fa-xmark"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                    </div>
+                    <div id="row4" class="tableCol row">
+                        <div>Screens you can watch on at the same time</div>
+                        <div>1</div>
+                        <div>2</div>
+                        <div>4</div>
+                    </div>
+                    <div id="row5" class="tableCol fadedBack row">
+                        <div>Watch on your laptop, TV, phone and tablet</div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                    </div>
+                    <div id="row6" class="tableCol row">
+                        <div>Unlimited movies and TV shows</div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                    </div>
+                    <div id="row7" class="tableCol fadedBack row">
+                        <div>Cancel anytime</div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                    </div>
+                    <div id="row8" class="tableCol row">
+                        <div>First month free</div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                        <div><i class="fa-solid fa-check"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerContainer">
+        <div id="footer">
+            <div id="questions">Questions? Call 1-866-579-7172</div>
+            <div class="flexCol">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Ways To Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Netflix Originals</a>
+            </div>
+            <div class="flexCol">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="flexCol">
+                <a href="#">Account</a>
+                <a href="#">Redeem Gift Cards</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="flexCol">
+                <a href="#">Media Center</a>
+                <a href="#">Buy Gift Cards</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
